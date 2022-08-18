@@ -1,0 +1,54 @@
+.card__icon {
+  width: 270px;
+  height: 120px;
+  border-radius: 4%;
+  background-color: #f5f4fa;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.tittle {
+  display: flex;
+  display: inline-block;
+  gap: 30px;
+}
+.tittle {
+  flex-basis: calc((100% - 30px) / 4);
+}
+
+.description__conteiner {
+  background-color: #fff;
+  padding-top: 95px;
+}
+.card__set {
+  display: flex;
+  align-items: stretch;
+  gap: 30px;
+}
+
+.card__set:not(:last-child) {
+  margin-right: 30px;
+}
+
+.card__top-tittle {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.top-tittle {
+  margin-bottom: 10px;
+}
+
+.card__description-title {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}

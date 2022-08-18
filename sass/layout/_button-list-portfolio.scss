@@ -1,0 +1,42 @@
+.section-two {
+  background-color: #ffffff;
+}
+.button__portfolio {
+  display: flex;
+  justify-content: center;
+}
+
+.button__items:not(:last-child) {
+  margin-right: 8px;
+}
+.button__list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+  border: 0px;
+  cursor: pointer;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+
+.button_list_one {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+.button_list_next {
+  color: #212121;
+  background-color: #f5f4fa;
+  transition-property: color, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover.button_list_next,
+  &:focus.button_list_next {
+    color: #f5f4fa;
+    background-color: var(--accent-color);
+  }
+}

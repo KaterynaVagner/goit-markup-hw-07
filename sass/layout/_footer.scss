@@ -1,0 +1,146 @@
+.footer-style {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.conteiner-address-style {
+  background-color: #2f303a;
+}
+
+/*==================================== ADDRESS======================================*/
+
+.address-info {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 1);
+}
+.email-info {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.address-kyiv {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  margin-bottom: 9px;
+}
+.email-margin {
+  margin-bottom: 9px;
+}
+
+.phone-info {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+/* =============================FOOTER SOCIAL LINK===============================*/
+.social-networks-text {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 00.03em;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.social-button-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
+}
+.social-icon-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: #ececec;
+}
+
+.social-networks {
+  display: flex;
+  gap: 10px;
+}
+.parent {
+  display: flex;
+  align-items: baseline;
+}
+.logo-footer {
+  margin-right: 70px;
+}
+/* =============================FOOTER SOCIAL LINK===============================*/
+/*==============================FOTER MODAL==========================*/
+.footer-modal-tittle {
+  display: block;
+  width: 100%;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  margin-left: 93px;
+  margin-bottom: 20px;
+}
+
+.fotter-modal-form-input {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  width: 358px;
+  height: 50px;
+  background-color: #2f303a;
+  box-shadow: 4px 0px, 4px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 16px 15px;
+  margin-left: 93px;
+  margin-right: 12px;
+  outline: none;
+}
+
+.footer-modal-button {
+  width: 200px;
+  height: 50px;
+  border: 0px;
+  outline: none;
+  border-radius: 4px;
+  background-color: var(--accent-color);
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+}
+.modal-email-icon {
+  fill: #ffffff;
+  align-self: center;
+  margin-left: 10px;
+}

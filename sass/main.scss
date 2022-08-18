@@ -1,9 +1,27 @@
-.body {
-  background-color: rgb(51, 63, 16);
-}
-a {
-  text-decoration: none;
-}
-.p {
-  background-color: aqua;
-}
+@import "./utils/variables";
+@import "./utils/visually-hidden";
+@import "./utils/body-color-portfolio";
+
+@import "./base/common";
+@import "./base/section";
+@import "./base/conteiner";
+
+@import "./components/modal-btn";
+@import "./components/backdrop";
+@import "./components/modal-window";
+@import "./components/modal-form";
+@import "./components/text-tittle";
+@import "./components/logo-header";
+@import "./components/logo-footer";
+@import "./components/addres.footer";
+
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/card-set";
+@import "./layout/images";
+@import "./layout/list-team";
+@import "./layout/list-regular-client";
+@import "./layout/footer";
+@import "./layout/header-portfolio";
+@import "./layout/button-list-portfolio";
+@import "./layout/images-list-portfolio";
