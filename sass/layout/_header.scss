@@ -14,7 +14,7 @@
   margin-right: 50px;
 }
 
-.menu__studio {
+.menu__nav_active_ {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -25,7 +25,7 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  &.current-one::after {
+  &.current::after {
     position: absolute;
     bottom: -34px;
     content: "";
@@ -39,14 +39,14 @@
   }
 }
 
-.current-one:active::after {
+.current:active::after {
   background-color: var(--accent-color);
 }
-.current-one:hover::after {
+.current:hover::after {
   background-color: var(--accent-color);
 }
 
-.menu__portfolio {
+.menu__nav {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -57,7 +57,7 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  &.current-two::after {
+  &.current__potrfolio::after {
     position: absolute;
     bottom: -34px;
     content: "";
@@ -70,14 +70,14 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
-.current-two:active::after {
+.current__potrfolio:active::after {
   background-color: var(--accent-color);
 }
-.current-two:hover::after {
+.current__potrfolio:hover::after {
   background-color: var(--accent-color);
 }
 
-.menu__contact {
+.menu__nav {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -88,7 +88,7 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  &.current-three::after {
+  &.current__contact::after {
     position: absolute;
     bottom: -34px;
     content: "";
@@ -102,10 +102,10 @@
   }
 }
 
-.current-three:active::after {
+.current__contact:active::after {
   background-color: var(--accent-color);
 }
-.current-three:hover::after {
+.current__contact:hover::after {
   background-color: var(--accent-color);
 }
 

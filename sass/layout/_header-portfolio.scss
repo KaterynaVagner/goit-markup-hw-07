@@ -1,10 +1,8 @@
 .page-header {
   background-color: #ffffff;
 }
-.border-header {
-  border-bottom: 1px solid #ececec;
-}
-.page-header-conteiner {
+
+.page__nav {
   display: flex;
   align-items: center;
 }
@@ -13,24 +11,17 @@
   display: flex;
   align-items: center;
 }
-.site-nav-menu {
-  display: flex;
-}
 
-.portfolio-nav-menu {
-  display: flex;
-  margin-left: auto;
-}
-
-.menu-item:not(:last-child) {
+.menu__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.portfolio-nav-email {
-  margin-right: 50px;
+.border-header {
+  border-bottom: 1px solid #ececec;
 }
+
 /*===Studio-Next===*/
-.site-nav-studio-next {
+.menu__nav {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -41,7 +32,7 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  &.current-one-next::after {
+  &.current::after {
     position: absolute;
     bottom: -34px;
     content: "";
@@ -55,18 +46,18 @@
   }
 }
 
-.current-one-next:active {
+.current:active {
   color: var(--accent-color);
 }
-.current-one-next:active::after {
+.current:active::after {
   background-color: var(--accent-color);
 }
-.current-one-next:hover::after {
+.current:hover::after {
   background-color: var(--accent-color);
 }
 
 /*===Portfolio===*/
-.site-nav-portfolio-next {
+.menu__nav_active_ {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -77,7 +68,7 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  &.current-two-next::after {
+  &.current__potrfolio::after {
     position: absolute;
     bottom: -34px;
     content: "";
@@ -91,14 +82,14 @@
   }
 }
 
-.current-two-next:active::after {
+.current__potrfolio:active::after {
   background-color: var(--accent-color);
 }
-.current-two-next:hover::after {
+.current__potrfolio:hover::after {
   background-color: var(--accent-color);
 }
 /*===CONTACT-NEXT===*/
-.site-nav-contact-next {
+.menu__nav {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -109,7 +100,7 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  &.current-three-next::after {
+  &.current__contact::after {
     position: absolute;
     bottom: -34px;
     content: "";
@@ -123,13 +114,13 @@
   }
 }
 
-.current-three-next:active::after {
+.current__contact:active::after {
   background-color: var(--accent-color);
 }
-.current-three-next:active {
+.current__contact:active {
   color: var(--accent-color);
 }
-.current-three-next:hover::after {
+.current__contact:hover::after {
   background-color: var(--accent-color);
 }
 /*=================================portfolio-nav========================================*/
