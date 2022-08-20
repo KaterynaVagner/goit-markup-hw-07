@@ -34,7 +34,7 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   &.current::after {
     position: absolute;
-    bottom: -34px;
+    bottom: -33px;
     content: "";
     display: block;
     width: 48px;
@@ -68,13 +68,14 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  &.current__potrfolio::after {
+  &.current__portfolio::after {
     position: absolute;
-    bottom: -34px;
+    bottom: -33px;
     content: "";
     display: block;
-    width: 66px;
+    width: 75px;
     height: 4px;
+    background-color: var(--accent-color);
     border-radius: 4px;
     transition-property: color;
     transition-duration: 250ms;
@@ -82,12 +83,12 @@
   }
 }
 
-.current__potrfolio:active::after {
+.current__portfolio:active::after {
   background-color: var(--accent-color);
 }
-.current__potrfolio:hover::after {
+/*.current__potrfolio:hover::after {
   background-color: var(--accent-color);
-}
+}*/
 /*===CONTACT-NEXT===*/
 .menu__nav {
   font-weight: 500;
@@ -102,7 +103,7 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   &.current__contact::after {
     position: absolute;
-    bottom: -34px;
+    bottom: -33px;
     content: "";
     display: block;
     width: 66px;
@@ -113,13 +114,13 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
-
-.current__contact:active::after {
-  background-color: var(--accent-color);
-}
 .current__contact:active {
   color: var(--accent-color);
 }
+.current__contact:active::after {
+  background-color: var(--accent-color);
+}
+
 .current__contact:hover::after {
   background-color: var(--accent-color);
 }
