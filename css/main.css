@@ -815,7 +815,7 @@ button {
   background-color: var(--accent-color);
 }
 
-.social__list {
+.social-list {
   display: flex;
   justify-content: center;
   gap: 10px;
@@ -831,11 +831,11 @@ button {
   fill: #ffffff;
 }
 
-.regular-client-style {
+.regular__client-style {
   background-color: #ffffff;
 }
 
-.button-regular-client {
+.regular__client-button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -849,12 +849,12 @@ button {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.button-regular-client:hover, .button-regular-client:focus {
+.regular__client-button:hover, .regular__client-button:focus {
   fill: var(--accent-color);
   border-color: var(--accent-color);
 }
 
-.regular-client-list {
+.regular__client-list {
   display: flex;
   justify-content: center;
   gap: 30px;
